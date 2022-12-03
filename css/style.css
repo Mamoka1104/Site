@@ -1,4 +1,159 @@
-* {
-    margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+.top {
+    background-color: #fff;
+    color: #000;
+
+}
+
+.center {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1170px;
+    width: 100%;
+    margin: 40px 0 0 0;
+}
+
+.top_nav_logo {
+    width: 137px;
+    height: 40px;
+}
+
+.nav_link {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_list {
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 533px;
+    max-width: 1170px;
+    width: 100%;
+}
+
+.menu_list_item {
+    list-style: none;
+    margin-left: 34px;
+    font-family: 'Gilroy-SemiBold';
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.item_link {
+    text-decoration: none;
+    color: #000;
+}
+
+.home {
+    text-decoration: none;
+    color: #F25822;
+}
+
+.top_button {
+    justify-content: end;
+    /*  margin-left: 34px;*/
+    padding: 0;
+    font-family: 'Gilroy-SemiBold';
+    background-color: #F25822;
+    color: #fff;
+    border-radius: 30px;
+    width: 120px;
+    height: 40px;
+    border-width: 0px;
+}
+
+.top_content {
+    display: flex;
+}
+
+.top_info {
+    margin: 143px 0 0 0;
+}
+
+.top_title {
+    margin: 0 0 17px 0;
+    font-family: 'Gilroy-Bold';
+    font-size: 60px;
+    line-height: 70px;
+}
+
+.top_subtitle {
+    margin: 0 0 37px 0;
+    font-family: 'Gilroy-Medium';
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+
+}
+
+.button_top_info {
+    display: flex;
+    align-items: center
+}
+
+.icon_video {
+    border-radius: 50px;
+    border-width: 1px;
+    border-color: #F25822;
+}
+
+.video {
+    text-decoration: none;
+    font-family: 'Gilroy-Bold';
+    font-size: 15px;
+    line-height: 18px;
+    color: #AAAAAA;
+    margin-left: 15px;
+}
+
+
+.top_info_button {
+    background-color: #F25822;
+    color: #fff;
+    border-radius: 30px;
+    width: 120px;
+    height: 40px;
+    margin-right: 27px;
+    font-family: 'Gilroy-Bold';
+    font-size: 15px;
+    line-height: 18px;
+    border-width: 0px;
+
+}
+
+.photo_content {
+    margin: 84px 0 0 0px;
+    display: flex;
+    justify-content: end;
+}
+
+.top_logos {
+
+    margin: 103px 0 0 0;
+
+}
+
+.logo_list {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
 }

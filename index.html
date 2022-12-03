@@ -7,26 +7,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная страница</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        @font-face {
+            font-family: gilroy-medium;
+            /* Имя шрифта */
+            src: url(fonts/gilroy-medium.ttf);
+            /* Путь к файлу со шрифтом */
+        }
+
+        @font-face {
+            font-family: gilroy-semibold;
+            /* Имя шрифта */
+            src: url(fonts/gilroy-semibold.ttf);
+            /* Путь к файлу со шрифтом */
+        }
+
+        @font-face {
+            font-family: gilroy-bold;
+            /* Имя шрифта */
+            src: url(fonts/gilroy-bold.ttf);
+            /* Путь к файлу со шрифтом */
+        }
+    </style>
 </head>
 
 <body>
-    <div class="top">
-        <div class="nav">
-            <img src="img/LogoNav.png" alt="Logo">
+    <div class="top center">
+        <div class="nav center">
+            <img class="top_nav_logo" src="img/LogoNav.png" alt="Logo">
             <div class="nav_link">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Features</a></li>
-                    <li><a href="#">Team</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
+                <ul class="menu_list">
+                    <li class="menu_list_item "><a class="home" href="#">Home</a></li>
+                    <li class="menu_list_item"><a class="item_link" href="#">About Us</a></li>
+                    <li class="menu_list_item"><a class="item_link" href="#">Services</a></li>
+                    <li class="menu_list_item"><a class="item_link" href="#">Features</a></li>
+                    <li class="menu_list_item"><a class="item_link" href="#">Team</a></li>
+                    <li class="menu_list_item"><a class="item_link" href="#">Blog</a></li>
+                    <li class="menu_list_item"><a class="item_link" href="#">Contact</a></li>
                 </ul>
+                <button class="top_button">Get started</button>
             </div>
-            <button class="top_button">Get started</button>
+
         </div>
+
+
         <div class="top_content">
+
             <div class="top_info">
                 <h1 class="top_title">SEO & Digital Marketing For Your Website.</h1>
                 <h2 class="top_subtitle">Provide all kind of seo services and help to improve seo ranking. Globally
@@ -35,16 +61,16 @@
                 <div class="button_top_info">
                     <button class="top_info_button">Start Now</button>
                     <div class="info_video">
-                        <img src="img/icon_info.png" alt="Video">
-                        <a href="#">Watch Video</a>
+                        <img class="icon_video" src="img/icon_info.png" alt="Video">
+                        <a class="video" href="#">Watch Video</a>
                     </div>
-
                 </div>
+
             </div>
-            <img src="img/photo_content.png" alt="PhotoContent">
+            <img class="photo_content" src="img/photo_content.png" alt="PhotoContent" height="375">
         </div>
         <div class="top_logos">
-            <ul>
+            <ul class="logo_list">
                 <li><img src="img/logo_liva.png" alt="Liva"></li>
                 <li><img src="img/logo_kanba.png" alt="Kanba"></li>
                 <li><img src="img/logo_amara.png" alt="Amara"></li>
