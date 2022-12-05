@@ -12,7 +12,6 @@ p {
 .top {
     background-color: #fff;
     color: #000;
-
 }
 
 .center {
@@ -44,7 +43,6 @@ p {
     padding: 0;
     display: flex;
     flex-wrap: wrap;
-    max-width: 533px;
     max-width: 1170px;
     width: 100%;
 }
@@ -69,7 +67,6 @@ p {
 
 .top_button {
     justify-content: end;
-    /*  margin-left: 34px;*/
     padding: 0;
     font-family: 'Gilroy-SemiBold';
     background-color: #F25822;
@@ -101,7 +98,6 @@ p {
     font-size: 20px;
     line-height: 23px;
     color: #888888;
-
 }
 
 .button_top_info {
@@ -136,7 +132,6 @@ p {
     font-size: 15px;
     line-height: 18px;
     border-width: 0px;
-
 }
 
 .photo_content {
@@ -146,9 +141,7 @@ p {
 }
 
 .top_logos {
-
     margin: 103px 0 0 0;
-
 }
 
 .logo_list {
